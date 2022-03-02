@@ -8,7 +8,7 @@ showList = () => {
     list.innerHTML +=
       "<li><button onclick='removeItem(" +
       i +
-      ")'>X</button>   " +
+      ")'><i class='fa-solid fa-trash'></i></button>   " +
       arr[i] +
       "</li>";
   }
